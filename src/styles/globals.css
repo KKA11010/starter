@@ -1,0 +1,18 @@
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+	--color-gradient-bg: linear-gradient(0deg, rgba(199, 205, 215, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	/* --icon-filter: unset; */
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+	:root:not([data-theme]) {
+		--color-gradient-bg: linear-gradient(0deg, rgb(24, 31, 41) 0%, rgba(13, 17, 23, 1) 100%);
+		/* --icon-filter: invert(100%); */
+	}
+}
+
+html,
+body {
+	background: var(--color-gradient-bg);
+	min-height: 100vh;
+}
