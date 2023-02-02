@@ -5,9 +5,21 @@ Slightly modified to use the following libraries:
 - [Picocss](https://picocss.com/)
 - [Vercel analycis](https://vercel.com/analytics)
 
+Experimental usage of Next.js "appDir".
+
 ## Getting Started
 
-First, run the development server:
+First, clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/KKA11010/starter.git
+
+cd starter
+
+npm i
+```
+
+Run the development server:
 
 ```bash
 npm run dev
